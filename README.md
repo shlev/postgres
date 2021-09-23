@@ -39,5 +39,5 @@ start postgres
 
 
 ## Links
- - [https://www.mockaroo.com/](https://www.mockaroo.com/) Optional import table from content generator
- - [https://www.postgresql.org/docs/9.5/functions-aggregate.html/](aggregate functions)
+ - [mockaroo.com](https://www.mockaroo.com/) Optional import table from content generator
+ - [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)
