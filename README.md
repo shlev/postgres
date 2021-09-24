@@ -72,7 +72,7 @@ start postgres
       price NUMERIC(19,2) NOT NULL
   );
 ```
-- select all fields on both tables <br>
+- __JOIN__ select all fields on both tables <br> 
 ``` JOIN car ON person.car_id = car.id ```
 - select columns
 ``` 
@@ -94,8 +94,10 @@ start postgres
 |\conninfo|connection info| connection from app details|
 |\d | show table | |
 |\dt| show tables without herlper tables|
+|\df| show installed functions| adding function by EXTENTIONS|
 |\i <file>| execute from file| 
 |\x| toggle expand mode | rows presented vertically |
+|\copy| export to CSV| |
 
 
 ## Links
