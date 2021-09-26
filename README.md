@@ -90,6 +90,7 @@ start postgres
 | command | action| comment|
 |---|---|---|
 |\?|help| |
+|\l| list databases||
 |\c <db_name>|connect to database|
 |\conninfo|connection info| connection from app details|
 |\d | show table | |
