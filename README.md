@@ -93,12 +93,14 @@ start postgres
 |\l| list databases||
 |\c <db_name>|connect to database|
 |\conninfo|connection info| connection from app details|
-|\d | show table | |
-|\dt| show tables without herlper tables|
+|\d | list tables | |
+  |\d <table_name>| describe table columns||
+|\dt| list tables without herlper tables|
 |\df| show installed functions| adding function by EXTENTIONS|
 |\i <file>| execute from file| 
 |\x| toggle expand mode | rows presented vertically |
 |\copy| export to CSV| |
+  |ctrl+d|quit shell||
 
 
 ## Links
